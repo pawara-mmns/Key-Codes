@@ -20,8 +20,16 @@ function procesKeyEvent(e){
         which.innerText = e.which;
     }
     if(e.key){
+        keyPressed.style.fontSize = "100px"
         key.innerText = e.key;
-        keyPressed.innerText = e.key;
+        if(e.key == "Enter"){
+            keyPressed.innerText = "↲"
+        }else{
+            if(e.key.length > 1){
+                keyPressed.style.fontSize = "30px";
+            }
+              keyPressed.innerText = e.key;
+        }
         
     }
     if(e.code){
