@@ -1,0 +1,20 @@
+#key-details-box {
+    background-color: whitesmoke;
+    border: 5px solid lightgray;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#key-pressed-box{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
